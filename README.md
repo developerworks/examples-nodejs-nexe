@@ -11,5 +11,5 @@
 
 ## Run
 
-- `npm run nex` It will build cjs files to `dist` with esbuild and package it with nexe
+- `npm run nexe` It will build cjs files to `dist` with esbuild and package it with nexe
 - See `package.json` for details
