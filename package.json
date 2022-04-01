@@ -1,0 +1,21 @@
+{
+  "name": "examples-nodejs-nexe",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "nexe": "npm run build && ./nexe.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.29",
+    "table": "^6.8.0"
+  }
+}
